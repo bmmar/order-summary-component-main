@@ -1,0 +1,122 @@
+html {
+    background-color: white;
+    margin: 0 auto;
+}
+body {
+    max-width: 375px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+    background-color: hsl(225, 100%, 94%);
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.main-image {
+    border-radius: 10%;
+}
+
+.main-image img{
+    max-width: 100%;
+    border-radius: 2rem 2rem 0 0;    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./images/pattern-background-mobile.svg");
+}
+
+.card {
+    margin: 18% 7%;
+    background-color: hsl(227, 60%, 97%);
+    border-radius: 2rem;
+    box-shadow: 0px 1rem 0.5rem 0.1rem hsl(233, 10%, 85%);
+}
+
+h1  {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 900;
+    margin-top: 1.8rem;
+}
+
+p {
+    color:hsl(224, 23%, 55%);
+}
+
+.main-text {
+    text-align: center;
+    margin: 0 2.5rem;
+    line-height:1.5rem;
+    font-weight: 700;
+}
+
+.price-box {
+    background-color: hsl(228, 17%, 94%);
+    margin: 1.4rem ;
+    border-radius: .5rem;
+    display: grid;
+    grid-template-columns: 20% 55% 25%;
+    padding: 5%
+}
+
+.price-box img, p .plan-and-price, .change{
+    align-self: center;
+}
+
+p .annual-plan {
+    font-weight: 900;
+}
+
+p .plan-and-price{
+    margin-left: 1rem;
+}
+
+p .change a{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+p .change a:hover {
+    color:hsl(225, 2%, 61%)
+}
+
+.proceed {
+    background-color: hsl(238, 100%, 46%);
+    color: white;
+    margin: 0 auto;
+    display:block;
+    padding:1rem 4rem;
+    border: none;
+    border-radius: 0.7rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    box-shadow: 0px 1rem 0.5rem 0.1rem hsl(233, 10%, 85%);
+    cursor: pointer;
+}
+
+.proceed:hover {
+    background-color: rgb(170, 144, 197);
+}
+
+.cancel {
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.cancel a:hover {
+    color:hsl(225, 2%, 61%);
+}
+
+
+.attribution { font-size: 11px; text-align: center; background-color: white;}
+.attribution a { color: hsl(228, 45%, 44%); }
